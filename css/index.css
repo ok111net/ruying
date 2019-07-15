@@ -1,0 +1,11 @@
+h1{
+  text-align: center;
+}
+div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin: 0 20px;
+}
