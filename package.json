@@ -1,7 +1,7 @@
 {
   "name": "ok111",
   "version": "0.0.6",
-  'main': "index.html",
+  "main": "index.html",
   "description": "由w3c组件化标准web components封装而成。旨在为工程化、模块化、数据驱动式UI构建web组件库与应用提供一个基础库。ok.js没有react的陡峭学习曲线和心智负担；没有vue因繁锁api而带来的记忆负担。推崇稳定、轻量、简约而不简单；返璞归真，易学、易用、易扩展。",
   "scripts": {
     "start": "node server.js"
