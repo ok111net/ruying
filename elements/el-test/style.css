@@ -6,34 +6,3 @@
   color: #fff;
   background-color: #2aa198;
 }
-h1{
-  position: sticky;
-  top: 0;
-  /*height: 50px;*/
-  background-color: var(--brand-primary);
-  margin: 0;
-  line-height: 50px;
-  padding-left: calc(var(--h-spacing-sm)*2);
-  font-size: 14px;
-  color: var(--color-text-secondary);
-  font-weight: 400;
-  z-index: var(--base-zindex);
-  
-  display: grid;
-  grid-template-columns: 50px 27px auto;
-  align-items: center;
-}
-@media only screen and (min-width: 768px){
-  h1{
-    justify-content: center;
-  }
-}
-
-.logo {
-  display: block;
-  height: 95%
-}
-.icon{
-  /*margin-top: var(--v-spacing-sm);*/
-  margin-right: var(--h-spacing-md)
-}
