@@ -1,0 +1,42 @@
+:host{
+  /*定义css3变量沟子，主便在标签外重置样式*/
+  --done-color:#999;
+  --not-done-color:#d54e53;
+}
+div{
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid var(--not-done-color);
+}
+.done{
+  border: 1px solid var(--done-color);
+}
+h3{
+  color: var(--not-done-color);
+}
+h3>span{
+  font-size: 12px;
+  float: right;
+  color: var(--not-done-color);
+}
+.done h3,
+.done h3>span{
+  color: var(--done-color);
+}
+li{
+  padding: 10px 0;
+  color: var(--not-done-color);
+}
+li>span{
+  float: right;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #fff;
+  cursor:pointer;
+  background-color: var(--not-done-color);;
+}
+.done li{
+  text-decoration: line-through;
+  color: var(--done-color);
+}
