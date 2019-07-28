@@ -5,9 +5,13 @@
 ## 如何开始
 1. 执行`yarn add ok111`(需要安装yarn)或`npm i ok111`(也可直接克隆https://github.com/ok111net/ruying.git)；
 2. 进入node_modules, 把ok111文件夹拷贝到你需要的地方，执行下面步骤；
-3. 安装项目依赖(express静态文件服务)；
-4. 执行`npm run start`，打开http://localhost/ 即可查看项目；
-5. 已配置有服务器的直接把项目文件拷贝到服务器相应位置即可(非根目录的请修改相关文件引用路径)。
+3. 在项目文件夹内执行`yarn`或`npm i`安装项目依赖(express静态文件服务)；
+4. 执行`yarn start`或`npm start`，打开http://localhost/ 即可查看项目；
+5. 已配置有服务器的直接把项目文件拷贝到服务器相应位置即可(非根目录的请修改相关文件的路径)。
+
+## 如影(ok.js)技术交流群
+
+群号：**118102433**
 
 #### LICENSE
 项目license。
