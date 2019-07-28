@@ -3,8 +3,8 @@ let { Element,html,page}=OK;
 page(class extends Element {
   static css=`./css/index.css`;
   
-  constructor(props){
-    super(props);
+  constructor(){
+    super();
     this.data={
       title:'这是一个demo',
     };

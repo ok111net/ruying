@@ -3,8 +3,8 @@ let { Element,html,page}=OK;
 page(class extends Element {
   static css=`./css/todo-list.css`;
   
-  constructor(props){
-    super(props);
+  constructor(){
+    super();
     this.data={
       inputValue:'',//添加待办输入框的值
       list:[],//待办列表,{title,isDone},title:待办项;isDone:是否已完成
