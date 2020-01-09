@@ -48,7 +48,7 @@ page(class extends Element {
 <el-list isDone list=${this.data.list}/>
 <div>
 <input placeholder="添加待办" value=${this.data.inputValue} oninput=${this.onInput}/>
-<button onclick=${this.onAdd}>添加</button>
+<button onClick=${this.onAdd}>添加</button>
 </div>`;
   }
 });
